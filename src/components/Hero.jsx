@@ -59,7 +59,7 @@ const Hero = () => {
                     <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[450px] lg:h-[550px]">
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-[2rem] transform rotate-6 scale-105 opacity-20 blur-2xl animate-pulse"></div>
                         <img
-                            src="src/assets/WhatsApp Image 2025-12-27 at 21.34.37_f82a19a4.jpg"
+                            src="https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/WhatsApp%20Image%202025-12-27%20at%2021.34.37_f82a19a4.jpg?raw=true"
                             alt="Kushal Lonarkar"
                             className="w-full h-full object-cover rounded-[2rem] shadow-2xl relative z-10 border-4 border-white dark:border-gray-800 transform transition-transform duration-500 hover:scale-[1.02]"
                         />

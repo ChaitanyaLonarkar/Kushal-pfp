@@ -5,13 +5,13 @@ const Gallery = () => {
     const [selectedIndex, setSelectedIndex] = useState(null);
 
     const images = [
-        "IMG-20251227-WA0012.jpg",
-        "IMG-20251227-WA0017.jpg",
-        "IMG-20251227-WA0019.jpg",
-        "IMG-20251227-WA0022.jpg",
-        "IMG-20251227-WA0025.jpg",
-        "WhatsApp Image 2025-12-27 at 21.37.56_03bf70b1.jpg",
-        "pp2.jpg", "ppp.jpg", "pppp.jpg"
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/IMG-20251227-WA0012.jpg?raw=true",
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/IMG-20251227-WA0017.jpg?raw=true",
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/IMG-20251227-WA0025.jpg?raw=true",
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/IMG-20251227-WA0022.jpg?raw=true",
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/IMG-20251227-WA0019.jpg?raw=true",
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/WhatsApp%20Image%202025-12-27%20at%2021.37.56_03bf70b1.jpg?raw=true",
+        "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/pp2.jpg?raw=true", "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/ppp.jpg?raw=true", "https://github.com/ChaitanyaLonarkar/Kushal-pfp/blob/main/src/assets/pppp.jpg?raw=true"
     ];
 
     const handleNext = useCallback((e) => {
@@ -57,7 +57,7 @@ const Gallery = () => {
                             onClick={() => setSelectedIndex(index)}
                         >
                             <img
-                                src={`src/assets/${src}`}
+                                src={`${src}`}
                                 alt={`Gallery item ${index + 1}`}
                                 className="w-full h-full object-cover"
                                 loading="lazy"
