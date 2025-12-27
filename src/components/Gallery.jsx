@@ -97,7 +97,7 @@ const Gallery = () => {
 
                     <div className="relative max-w-5xl max-h-[85vh] w-full" onClick={(e) => e.stopPropagation()}>
                         <img
-                            src={`src/assets/${images[selectedIndex]}`}
+                            src={`${images[selectedIndex]}`}
                             alt={`Gallery view ${selectedIndex + 1}`}
                             className="w-full h-full object-contain rounded-lg shadow-2xl animate-fade-in"
                         />
