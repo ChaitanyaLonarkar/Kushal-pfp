@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -47,15 +47,14 @@ const Contact = () => {
                                 <div className="p-3 bg-white/10 rounded-lg group-hover:bg-white/20 transition-colors">
                                     <Mail size={24} />
                                 </div>
-                                <span>hello@example.com</span>
+                                <span>Kushal@example.com</span>
                             </div>
-                            <div className="flex gap-4 mt-8">
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 rounded-lg hover:bg-white hover:text-blue-600 transition-all transform hover:-translate-y-1">
-                                    <Github size={24} />
+                            <div className="flex items-center gap-4 mt-8">
+                                
+                                <a href="https://www.instagram.com/kushal_lonarkar120/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 rounded-lg hover:bg-white hover:text-blue-600 transition-all transform hover:-translate-y-1">
+                                    <Instagram size={24} />
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 rounded-lg hover:bg-white hover:text-blue-600 transition-all transform hover:-translate-y-1">
-                                    <Linkedin size={24} />
-                                </a>
+                                <span>@kushal_lonarkar120</span>
                             </div>
                         </div>
                     </div>
