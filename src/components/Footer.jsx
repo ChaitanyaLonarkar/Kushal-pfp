@@ -17,9 +17,12 @@ const Footer = () => {
                         <Linkedin size={20} />
                     </a> */}
                     <a href="https://www.instagram.com/kushal_lonarkar120/" target="_blank" className=" flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                       Connect me on <Instagram size={20} />
+                        Connect me on <Instagram size={20} />
                     </a>
                 </div>
+            </div>
+            <div className="text-center text-gray-400 mt-4" >
+                <p>Built with 🧠 & ❤️ by <a href="http://chaitanyalonarkar.netlify.app/" target="_blank" rel="noopener noreferrer" className='text-blue-300 hover:text-blue-400 transition-colors dark:text-blue-400 dark:hover:text-blue-300 animate-pulse font-bold'>Chaitanya Lonarkar</a></p>
             </div>
         </footer>
     );
